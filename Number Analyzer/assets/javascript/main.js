@@ -10,7 +10,7 @@ const localScope = function() {
     function appendToList() {
         const inputValue = Number(input.value);
 
-        if (inputValue > 100 || inputValue < 0 || arrayOfNumbers.includes(inputValue) || input.value === '') {
+        if (inputValue > 100 || inputValue < 1 || arrayOfNumbers.includes(inputValue) || input.value === '') {
             window.alert("Invalid value or already found in the list.");
             return;
         } 
