@@ -68,6 +68,6 @@ const localScope = function() {
     btnAdd.addEventListener("click", appendToList);
     btnFinish.addEventListener("click", displayResults);
     resetButton.addEventListener("click", resetAll);
-}
+};
 
 localScope();
